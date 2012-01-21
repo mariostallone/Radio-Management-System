@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Lucida Grande, Verdana, Sans-serif;
+	font-size: 14px;
+	color: #4F5155;
+	text-align:center;
+	background-color: #000;
+	background-image: url(../images/bg_black.png);
+}
+.body #content
+{
+	text-align:left;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */	
+}
+.body #content #login
+{
+	height: 440px;
+	width: 350px;
+	background-image: url(../images/login.png);
+	margin-right: auto;
+	margin-left: auto;
+	color: #000;
+	background-repeat: no-repeat;
+	margin-top: 150px;
+}
+.body #content #login #text
+{
+	color: #000;
+	font-weight: 500;
+	padding-top: 200px;
+}
+.body #content #login #text a
+{
+	color: #6a4a0b;
+	text-decoration: none;
+}
+.body #content #login #text a:hover
+{
+	text-decoration: underline;
+}
+.form_but
+{
+	background-image:url(../images/button.jpg);
+	width:97px;
+	height:29px;
+	border:none;
+}
+.small
+{
+	font-size: 9px;
+	color: #CCC;
+}
